@@ -29,8 +29,13 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 // function multiply(a,b){ //eslint-disable-line
 
-
-
+function multiply(num3, num4){
+  var productOfTwoNumbers = num3 * num4;
+  var returnMessage = 'The product of ' + num3 + ' and ' + num4 + ' is ' + productOfTwoNumbers + '.';
+  var someProductArray = [productOfTwoNumbers, returnMessage]
+  return someProductArray;
+}
+testMultiply(5,9);
 // Here is the test for multiply(); uncomment it to run it
 // testMultiply(5,9);
 
