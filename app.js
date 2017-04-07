@@ -6,9 +6,14 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-function sum(a,b){ //eslint-disable-line
-
+console.log('please work');
+function sum(number1, number2){
+  var sumOfTwoNumbers = number1 + number2;
+  var  returnMessage = 'The sum of ' + number1 + ' and ' + number2 + ' is ' + sumOfTwoNumbers + '.';
+  var sumArray = [sumOfTwoNumbers, returnMessage]
+  return sumArray;
 }
+testSum(4, 7);
 
 // Here is the test for sum(); uncomment it to run it
 // testSum(4, 7);
@@ -22,9 +27,9 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-function multiply(a,b){ //eslint-disable-line
+// function multiply(a,b){ //eslint-disable-line
 
-}
+
 
 // Here is the test for multiply(); uncomment it to run it
 // testMultiply(5,9);
@@ -40,9 +45,9 @@ IMPORTANT DETAIL: You may not use the arithmetic operators + and * in this funct
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.*/
 
 // Write your code here
-function sumAndMultiply(a,b,c){ //eslint-disable-line
+// function sumAndMultiply(a,b,c){ //eslint-disable-line
 
-}
+
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
 // testSumAndMultiply(4,7,5);
@@ -57,11 +62,11 @@ IMPORTANT DETAIL: You may not use the arithmetic operator + in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
 // Write your code here
-var testArray = [2,3,4]; //eslint-disable-line
+// var testArray = [2,3,4]; //eslint-disable-line
 
-function sumArray(testArray){ //eslint-disable-line
+// function sumArray(testArray){ //eslint-disable-line
 
-}
+
 
 // Here is the test for sumArray(); uncomment it to run it
 
@@ -77,9 +82,9 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
-function multiplyArray(testArray){ //eslint-disable-line
+// function multiplyArray(testArray){ //eslint-disable-line
 
-}
+
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyArray(2,3,4);
