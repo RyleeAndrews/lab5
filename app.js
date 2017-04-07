@@ -8,9 +8,9 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 console.log('please work');
 function sum(number1, number2){
-  var sumOfTwoNumbers = number1 + number2;
-  var  returnMessage = 'The sum of ' + number1 + ' and ' + number2 + ' is ' + sumOfTwoNumbers + '.';
-  var sumArray = [sumOfTwoNumbers, returnMessage]
+  var sumOfTwoRandomNumbers = number1 + number2;
+  var  returnMessage = 'The sum of ' + number1 + ' and ' + number2 + ' is ' + sumOfTwoRandomNumbers + '.';
+  var sumArray = [sumOfTwoRandomNumbers, returnMessage]
   return sumArray;
 }
 testSum(4, 7);
