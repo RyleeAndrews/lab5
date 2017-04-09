@@ -45,7 +45,7 @@ function sumArray(testArray){
 testSumArray(testArray);
 
 function multiplyArray(testArray){
-  var multiplyArrayNumbs = [];
+  var multiplyArray = [];
   var firstMultiply = multiply(multiply(2,3)[0], 4)[0];
   var string = 'The numbers ' + 2 + ',' + 3 + ',' + 4 + ' have a product of ' + firstMultiply + '.';
   multiplyArray[0] = firstMultiply;
