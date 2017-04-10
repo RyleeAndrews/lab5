@@ -32,11 +32,14 @@ function sumAndMultiply(num5, num6, num7){
 }
 testSumAndMultiply(4,7,5);
 
-var testArray = [2,3,4];
+var testArray = [2, 3, 4];
 function sumArray(testArray){
   var arraySumNums = [];
-  var firstElement = sum(sum(2,3)[0], 4)[0];
-  var returnSum = 2 + ',' + 3 + ',' + 4 + ' was passed in as an array of numbers, and ' + firstElement + ' is their sum.';
+  var num8 = testArray[0];
+  var num9 = testArray[1];
+  var num10 = testArray[2];
+  var firstElement = sum(sum(num8, num9)[0], num10)[0];
+  var returnSum = num8 + ',' + num9 + ',' + num10 + ' was passed in as an array of numbers, and ' + firstElement + ' is their sum.';
   arraySumNums[0] = firstElement;
   arraySumNums[1] = returnSum;
   console.log(arraySumNums);
