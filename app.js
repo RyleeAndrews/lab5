@@ -28,19 +28,25 @@ function sumAndMultiply(num5, num6, num7){
 }
 testSumAndMultiply(4,7,5);
 
-var testArray = [num8,num9,num10];
+var testArray = [2,3,4];
 function sumArray(testArray){
   var arraySumNums = [];
+  var num8 = testArray[0];
+  var num9 = testArray[1];
+  var num10 = testArray[2];
   var firstElement = sum(sum(num8,num9)[0], num10)[0];
   var returnSum = num8 + ',' + num9 + ',' + num10 + ' was passed in as an array of numbers, and ' + firstElement + ' is their sum.';
   arraySumNums[0] = firstElement;
   arraySumNums[1] = returnSum;
   return arraySumNums
 }
-testSumArray(2,3,4);
+testSumArray(testArray);
 
 function multiplyArray(testArray){
   var multiplyArray = [];
+  var num8 = testArray[0];
+  var num9 = testArray[1];
+  var num10 = testArray[2];
   var firstMultiply = multiply(multiply(num8,num9)[0], num10)[0];
   var string = 'The numbers ' + num8 + ',' + num9 + ',' + num10 + ' have a product of ' + firstMultiply + '.';
   multiplyArray[0] = firstMultiply;
